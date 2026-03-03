@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Premium scrolling and base styles */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+/* Disable smooth scrolling when needed */
+html.scroll-auto {
+    scroll-behavior: auto;
+}
+
+/* Disable pointer events during scrolling */
+.scrolling .group:hover,
+.scrolling [class*="hover:"],
+.scrolling button:hover,
+.scrolling a:hover {
+    pointer-events: none !important;
+}
+
+/* Prevent hover animations during scroll */
+.scrolling * {
+    transition-duration: 0s !important;
+}
+
+body {
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #0891b2, #10b981);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #0e7490, #059669);
+}
+
+/* Selection styling */
+::selection {
+    background: rgba(8, 145, 178, 0.2);
+    color: #0f172a;
+}
+
+/* Focus styles */
+@layer components {
+    .focus-ring {
+        @apply focus:outline-none focus:ring-4 focus:ring-primary-100 focus:ring-opacity-50;
+    }
+    
+    .text-shadow {
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .glass-effect {
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .shimmer {
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+        animation: shimmer 2s infinite;
+    }
+}
+
+/* Animations */
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(200%); }
+}
+
+/* Enhanced focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+    @apply focus-ring;
+}
+
+/* Smooth transitions for reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
