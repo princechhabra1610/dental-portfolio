@@ -87,8 +87,8 @@ export default function Footer() {
                                 <FaTooth className="text-xl sm:text-2xl text-white" />
                             </div>
                             <div>
-                                <h3 className="font-bold text-xl sm:text-2xl bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
-                                    Dr. Aris Thorne
+                                <h3 className="font-bold text-xl sm:text-2xl text-white">
+                                    Dr. Aris Thorne, MDS
                                 </h3>
                                 <p className="text-slate-400 text-sm">Premium Dental Care</p>
                             </div>
