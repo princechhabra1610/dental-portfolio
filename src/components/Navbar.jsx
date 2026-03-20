@@ -39,9 +39,9 @@ export default function Navbar() {
                             className="cursor-pointer"
                         >
                             <h1 className="font-bold text-2xl bg-dental-gradient bg-clip-text text-transparent">
-                                Dr. Aris Thorne
+                                Seattle Smile Studio
                             </h1>
-                            <p className="text-xs text-body">Premium Dental Care</p>
+                            <p className="text-xs text-body">Dr. Aris Thorne, MDS</p>
                         </motion.div>
 
                         {/* Desktop Menu */}

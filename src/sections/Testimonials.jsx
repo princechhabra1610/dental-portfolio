@@ -41,7 +41,7 @@ export default function Testimonials() {
                     
                     <p className="text-lg sm:text-xl text-body max-w-2xl mx-auto leading-relaxed">
                         Real stories from real patients who trusted us with their smile transformations.
-                        See why Dr. Thorne is Seattle's most trusted dental practice.
+                        See why Seattle Smile Studio is the city's most trusted dental practice.
                     </p>
                 </motion.div>
 

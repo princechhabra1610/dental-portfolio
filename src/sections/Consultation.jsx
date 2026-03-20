@@ -586,7 +586,7 @@ export default function Consultation() {
                                         We've Received Your Request!
                                     </h3>
                                     <p className="text-body mb-6 max-w-md mx-auto">
-                                        Thank you for choosing our dental practice. Our team will reach out to you soon to confirm your consultation appointment.
+                                        Thank you for choosing Seattle Smile Studio. Our team will reach out to you soon to confirm your consultation appointment.
                                     </p>
                                     
                                     <div className="bg-primary-50 p-4 rounded-xl border border-primary-200 mb-6">

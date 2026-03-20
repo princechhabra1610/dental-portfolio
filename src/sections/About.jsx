@@ -55,7 +55,7 @@ export default function About() {
                     </h2>
                     
                     <p className="text-lg sm:text-xl text-body max-w-2xl mx-auto leading-relaxed">
-                        Leading Seattle's premier dental practice with over 12 years of experience 
+                        Leading Seattle Smile Studio with over 12 years of experience 
                         in advanced cosmetic and restorative dentistry.
                     </p>
                 </motion.div>

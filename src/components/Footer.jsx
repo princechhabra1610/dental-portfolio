@@ -88,9 +88,9 @@ export default function Footer() {
                             </div>
                             <div>
                                 <h3 className="font-bold text-xl sm:text-2xl text-white">
-                                    Dr. Aris Thorne, MDS
+                                    Seattle Smile Studio
                                 </h3>
-                                <p className="text-slate-400 text-sm">Premium Dental Care</p>
+                                <p className="text-slate-400 text-sm">Dr. Aris Thorne, MDS</p>
                             </div>
                         </div>
                         
@@ -243,8 +243,8 @@ export default function Footer() {
                     className="border-t border-slate-700 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4"
                 >
                     <div className="text-slate-400 text-xs sm:text-sm text-center md:text-left">
-                        <p>© 2026 Dr. Aris Thorne Dental Practice. All rights reserved.</p>
-                        <p className="mt-1">Licensed Dental Professional | State License #DDS12345</p>
+                        <p>© 2026 Seattle Smile Studio. All rights reserved.</p>
+                        <p className="mt-1">Dr. Aris Thorne, MDS | State License #DDS12345</p>
                     </div>
                     <div className="flex gap-4 sm:gap-6 text-slate-400 text-xs sm:text-sm">
                         <a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a>
